@@ -1,0 +1,50 @@
+{{define "header"}}
+    {{partial "header.html" .}}
+{{end}}
+
+{{define "main"}}
+
+{{ $paginator := .Paginator }}
+{{ if  .Site.Params.featured }}
+{{ if eq $paginator.PageNumber 1 }}
+<div class="featured-posts">
+    {{ $pages := .Site.RegularPages }}
+    {{ range $index, $page := $pages }}
+	{{ with $page.Params.featured }}
+        {{ partial "featured" $page }}
+	{{ end }}
+    {{end}}
+</div>
+{{end}}
+<div class="post-list">
+    {{if eq $paginator.PageNumber 1}}
+        {{ range $index, $page := $paginator.Pages }}
+            {{ if and (not $page.Params.featured) (eq $page.Type "posts") }}
+            {{ .Render "li" }}
+            {{ end }}
+        {{ end }}
+    {{else}}
+        {{ range $index, $page := $paginator.Pages }}
+            {{ if and (not $page.Params.featured) (eq $page.Type "posts") }}
+            {{ .Render "li" }}
+            {{ end }}
+        {{ end }}
+    {{end}}
+
+</div>
+{{ partial "pagination" . }}
+
+{{else}}
+<div class="post-list">
+    {{ range $index, $page := $paginator.Pages }}
+        {{ if and (not $page.Params.featured) (eq $page.Type "posts") }}
+        {{ .Render "li" }}
+        {{ end }}
+    {{ end }}
+</div>
+{{ partial "pagination" . }}
+{{end}}
+{{end}}
+{{define "footer"}}
+    {{partial "footer" .}}
+{{end}}
