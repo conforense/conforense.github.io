@@ -5,8 +5,7 @@ draft: true
 featured: true
 ---
 
-## Jaume Martin
+## << Nombre >>
 
 {{< figure src="ponente_name.png" >}}
 
-bla, bla
