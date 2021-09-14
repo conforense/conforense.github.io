@@ -53,5 +53,6 @@ jobs:
           destination-github-username: 'conforense'
           destination-repository-name: 'conforense.github.io'
           target-branch: main
-          user-email: 'jaumartin@gmail.com'
+          user-email: ${{ secrets.EMAIL }}
+          user-name: ${{ secrets.USERNAME }}
 
