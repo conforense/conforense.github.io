@@ -53,5 +53,5 @@ jobs:
           destination-github-username: 'conforense'
           destination-repository-name: 'conforense.github.io'
           target-branch: main
-          user-email: conforense@protonmail.com
+          user-email: 'jaumartin@gmail.com'
 
