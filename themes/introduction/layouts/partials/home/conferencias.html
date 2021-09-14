@@ -1,23 +1,27 @@
-{{ with .Site.GetPage "/projects" }}
+{{ with .Site.GetPage "/conferencias" }}
 <div class="section" id="{{ .Title | urlize }}">
-    <!-- Begin Projects container -->
+    <!-- Begin conferencias container -->
     <div class="container">
         <h2 class="title is-2 has-text-centered">
             {{ .Title | markdownify }}
         </h2>
         <div class="section">
             <div class="columns is-multiline">
-                {{ $totalProjects := (len .Pages) }}
-                {{ $numberOfProjectsToShow := .Site.Params.home.numberOfProjectsToShow | default $totalProjects }}
-                {{ range $index, $element := .Pages.ByWeight | first $numberOfProjectsToShow }}
+                {{ $totalConferenses := (len .Pages) }}
+                {{ $numberOfConferensesToShow := .Site.Params.home.numberOfConferensesToShow | default $totalConferenses }}
+                {{ range $index, $element := .Pages.ByWeight | first $numberOfConferensesToShow }}
                 {{ $width := "302x" }}
                 {{ $columWidth := "is-one-third" }}
-                {{ if .Site.Params.projects.useTwoColumns }}
+                {{ if .Site.Params.conferenses.useTwoColumns }}
                   {{ $columWidth = "is-half" }}
                   {{ $width = "490x" }}
                 {{ end}}
+                {{ if .Site.Params.conferenses.useOneColumn }}
+                    {{ $columWidth = "is-full" }}
+                    {{ $width = "490x" }}
+                {{ end}}
                 <div class="column {{ $columWidth }}">
-                    <div class="card" data-target="#project-{{ $index }}">
+                    <div class="card" data-target="#conferenses-{{ $index }}">
                         {{ if .Resources.ByType "image" }}
                         <div class="card-image">
                             <figure class="image is-3by2">
@@ -36,8 +40,8 @@
                             <h1><a {{ if .Params.external_link }} href="{{ .Params.external_link }}" {{ end }}>
                                 {{ .Title | markdownify }}
                             </a></h1>
-                            {{ if .Params.project_timeframe }}
-                            <p class="fa-xs">{{ .Params.project_timeframe }}</p>
+                            {{ if .Params.conferense_timeframe }}
+                            <p class="fa-xs">{{ .Params.conferense_timeframe }}</p>
                             {{ end }}
                         </div>
                     </div>
@@ -45,21 +49,17 @@
                 {{ end }}
             </div>
         </div>
-        {{ if lt $numberOfProjectsToShow $totalProjects }}
+        
         <div class="container has-text-centered top-pad">
-            <a href="{{ .Permalink }}">{{ i18n "index_projects_allProjects" . }}</a>
+            <a href="{{ .Permalink }}">{{ i18n "index_conferenses_allConferenses" . }}</a>
         </div>
-        {{ else }}
-        <div class="container has-text-centered top-pad">
-            <a href="{{ .Permalink }}">{{ i18n "index_projects_allProjects" . }}</a>
-        </div>
-        {{ end }}
+        
     </div>
-    <!-- End Projects container -->
-    <!-- Projects modals -->
-    {{ range $index, $element := .Pages.ByWeight | first $numberOfProjectsToShow }}
+    <!-- End Conferenses container -->
+    <!-- Conferenses modals -->
+    {{ range $index, $element := .Pages.ByWeight | first $numberOfConferensesToShow }}
     {{ if not .Params.external_link }}
-    <div class="modal" id="project-{{ $index }}">
+    <div class="modal" id="conferense-{{ $index }}">
         <div class="modal-background"></div>
         <div class="modal-card">
             {{ with .Title }}
@@ -67,8 +67,8 @@
                 <h1 class="modal-card-title has-text-centered">{{ . }}</h1>
             </header>
             {{ end }}
-            {{ if .Params.project_timeframe }}
-            <p class="fa-xs">{{ .Params.project_timeframe }}</p>
+            {{ if .Params.conferenses_timeframe }}
+            <p class="fa-xs">{{ .Params.conferenses_timeframe }}</p>
             {{ end }}         
             <section class="modal-card-body markdown">
                 {{ with .Resources.ByType "image" }}
@@ -93,12 +93,12 @@
                 {{ .Content }}
             </section>
         </div>
-        <button class="modal-close is-large" aria-label="close" data-target="#project-{{ $index }}"></button>
+        <button class="modal-close is-large" aria-label="close" data-target="#conferense-{{ $index }}"></button>
     </div>
     {{ end }}
     {{ end }}
     {{ partial "top-icon.html" . }}
 </div>
-<!-- End Projects section -->
+<!-- End Conferenses section -->
 <div class="container"><hr></div>
 {{ end }}

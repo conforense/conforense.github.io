@@ -9,9 +9,13 @@
                 {{ range .Pages.ByWeight }}
                 {{ $width := "302x" }}
                 {{ $columWidth := "is-one-third" }}
-                {{ if .Site.Params.projects.useTwoColumns }}
-                  {{ $columWidth = "is-half" }}
-                  {{ $width = "490x" }}
+                {{ if .Site.Params.conferenses.useTwoColumns }}
+                    {{ $columWidth = "is-half" }}
+                    {{ $width = "490x" }}
+                {{ end}}
+                {{ if .Site.Params.conferenses.useOneColumn }}
+                    {{ $columWidth = "is-full" }}
+                    {{ $width = "490x" }}
                 {{ end}}
                 <div class="column {{ $columWidth }}">
                     <div class="card">
