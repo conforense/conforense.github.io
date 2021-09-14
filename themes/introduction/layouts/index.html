@@ -50,16 +50,16 @@
             {{ $pages = $pages | append . }}
         {{ end }}
 
-        {{ with .Site.GetPage "/projects" }}
+        {{ with .Site.GetPage "/conferencias" }}
             {{ $pages = $pages | append . }}
         {{ end }}
 
         {{ range sort $pages "Params.weight" }}
         {{ if ne .Name "contact.md" }}
         {{ if .File }}
-        {{ if eq (os.Stat .File.Dir).Name "projects" }}
-            <!-- Now for some cool projects -->
-            {{ partial "home/projects.html" . }}
+        {{ if eq (os.Stat .File.Dir).Name "conferencias" }}
+            <!-- Now for some cool conferencias -->
+            {{ partial "home/conferencias.html" . }}
         {{ else if eq (os.Stat .File.Dir).Name "blog" }}
             <!-- Let`s show some blog posts -->
             {{ partial "home/blog.html" . }}
