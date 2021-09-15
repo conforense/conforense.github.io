@@ -1,4 +1,4 @@
-baseURL                           = "https://conforense.github.io/web"   # Your domain name. Must end with "/"
+baseURL                           = "https://conforense.github.io/"   # Your domain name. Must end with "/"
 theme                             = "introduction"
 DefaultContentLanguage            = "es"                    # Default language for multilingual sites
 

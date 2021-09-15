@@ -33,26 +33,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Add CNAME
-        run: echo "conforense.github.io" > public/CNAME
-
-      #- name: Deploy
-      #  uses: peaceiris/actions-gh-pages@v3
-      #  if: ${{ github.ref == 'refs/heads/main' }}
-      #  with:
-      #    github_token: ${{ secrets.GITHUB_TOKEN }}
-      #    publish_branch: gh-pages
-      #    cname: conforense.github.io
-      
-      - name: Pushes to ConForense web
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          source-directory: 'public'
-          destination-github-username: 'conforense'
-          destination-repository-name: 'conforense.github.io'
-          target-branch: main
-          user-email: ${{ secrets.EMAIL }}
-          user-name: ${{ secrets.USERNAME }}
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          cname: conforense.github.io
