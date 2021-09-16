@@ -16,11 +16,11 @@ googleAnalytics                 = "G-337655WCG8"                     # https://g
         showLatest                = true                    # Show latest blog post summary
         showAllPosts              = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
         allPostsArchiveFormat     = true                    # show all posts in an archive format
-        numberOfConferensesToShow = 3                       # Maximum number of conforenses to show on home page. Unset or comment out to show all projects
+        numberOfConferencesToShow = 3                       # Maximum number of conferences to show on home page. Unset or comment out to show all projects
         localTime                 = false                   # Show your current local time in contact section
         timeZone                  = "Europe/Madrid"         # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat                = "es-ES"                 # Language specific format to use
-    [params.conferenses]
+    [params.conferences]
         useTwoColumns             = false                   # Use a layout with two columns instead of three
         useOneColumn              = true
 

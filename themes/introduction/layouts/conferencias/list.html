@@ -9,11 +9,11 @@
                 {{ range .Pages.ByWeight }}
                 {{ $width := "302x" }}
                 {{ $columWidth := "is-one-third" }}
-                {{ if .Site.Params.conferenses.useTwoColumns }}
+                {{ if .Site.Params.conferences.useTwoColumns }}
                     {{ $columWidth = "is-half" }}
                     {{ $width = "490x" }}
                 {{ end}}
-                {{ if .Site.Params.conferenses.useOneColumn }}
+                {{ if .Site.Params.conferences.useOneColumn }}
                     {{ $columWidth = "is-full" }}
                     {{ $width = "490x" }}
                 {{ end}}

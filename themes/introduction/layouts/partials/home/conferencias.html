@@ -7,21 +7,21 @@
         </h2>
         <div class="section">
             <div class="columns is-multiline">
-                {{ $totalConferenses := (len .Pages) }}
-                {{ $numberOfConferensesToShow := .Site.Params.home.numberOfConferensesToShow | default $totalConferenses }}
-                {{ range $index, $element := .Pages.ByWeight | first $numberOfConferensesToShow }}
+                {{ $totalConferences := (len .Pages) }}
+                {{ $numberOfConferencesToShow := .Site.Params.home.numberOfConferencesToShow | default $totalConferences }}
+                {{ range $index, $element := .Pages.ByWeight | first $numberOfConferencesToShow }}
                 {{ $width := "302x" }}
                 {{ $columWidth := "is-one-third" }}
-                {{ if .Site.Params.conferenses.useTwoColumns }}
+                {{ if .Site.Params.conferences.useTwoColumns }}
                   {{ $columWidth = "is-half" }}
                   {{ $width = "490x" }}
                 {{ end}}
-                {{ if .Site.Params.conferenses.useOneColumn }}
+                {{ if .Site.Params.conferences.useOneColumn }}
                     {{ $columWidth = "is-full" }}
                     {{ $width = "490x" }}
                 {{ end}}
                 <div class="column {{ $columWidth }}">
-                    <div class="card" data-target="#conferenses-{{ $index }}">
+                    <div class="card" data-target="#conferences-{{ $index }}">
                         {{ if .Resources.ByType "image" }}
                         <div class="card-image">
                             <figure class="image is-3by2">
@@ -51,13 +51,13 @@
         </div>
         
         <div class="container has-text-centered top-pad">
-            <a href="{{ .Permalink }}">{{ i18n "index_conferenses_allConferenses" . }}</a>
+            <a href="{{ .Permalink }}">{{ i18n "index_conferences_allConferences" . }}</a>
         </div>
         
     </div>
-    <!-- End Conferenses container -->
-    <!-- Conferenses modals -->
-    {{ range $index, $element := .Pages.ByWeight | first $numberOfConferensesToShow }}
+    <!-- End Conferences container -->
+    <!-- Conferences modals -->
+    {{ range $index, $element := .Pages.ByWeight | first $numberOfConferencesToShow }}
     {{ if not .Params.external_link }}
     <div class="modal" id="conferense-{{ $index }}">
         <div class="modal-background"></div>
@@ -67,8 +67,8 @@
                 <h1 class="modal-card-title has-text-centered">{{ . }}</h1>
             </header>
             {{ end }}
-            {{ if .Params.conferenses_timeframe }}
-            <p class="fa-xs">{{ .Params.conferenses_timeframe }}</p>
+            {{ if .Params.conferences_timeframe }}
+            <p class="fa-xs">{{ .Params.conferences_timeframe }}</p>
             {{ end }}         
             <section class="modal-card-body markdown">
                 {{ with .Resources.ByType "image" }}
@@ -99,6 +99,6 @@
     {{ end }}
     {{ partial "top-icon.html" . }}
 </div>
-<!-- End Conferenses section -->
+<!-- End Conferences section -->
 <div class="container"><hr></div>
 {{ end }}
