@@ -6,7 +6,7 @@ weight: 90
 
 El grupo de [Telegram](https://telegram.org/) **Informática Forense** nace el 9 de octubre de 2016. Después de buscar en Internet se vio que no habían grupos en Telegram para la comunidad de informática forense en español. De modo que la acción inmediata fue crear un grupo y publicarlo en grupos dedicados a seguridad informática. Desde entonces el grupo de **Informática Forense** no ha hecho más que crecer. Actualmente cuenta con unos 4,8k usuarios.
 
-**Informática Forense** es hoy por hoy el grupo abierto en Telegram más inportante de infomática forense en España. Es un grupo que cuenta con multitud de profesionales reconocidos del sector, hay abogados especializados en la materia, así como algún que otro fiscal y personal de las FFCCSS.
+**Informática Forense** es hoy por hoy el grupo abierto en Telegram más importante de informática forense en España. Es un grupo que cuenta con multitud de profesionales reconocidos del sector, hay abogados especializados en la materia, así como algún que otro fiscal y personal de las FF.CC.SS.
 
 El grupo es público y se puede alcanzar con una simple búsqueda en Telegram. Por razones obvias se omite el enlace que proporciona acceso directo al grupo.
 
