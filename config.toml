@@ -1,10 +1,10 @@
 baseURL                           = "https://conforense.github.io/"   # Your domain name. Must end with "/"
 theme                             = "introduction"
 DefaultContentLanguage            = "es"                    # Default language for multilingual sites
-googleAnalytics                 = "G-337655WCG8"                     # https://gohugo.io/templates/internal/#google-analytics
+googleAnalytics                   = "G-337655WCG8"                     # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
-    themeStyle                    = "auto"                  # Choose "light" or "dark" or "auto"
+    themeStyle                    = "dark"                  # Choose "light" or "dark" or "auto"
     fadeIn                        = true                    # Turn on/off the fade-in effect
     fadeInIndex                   = true                    # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                    = "2 January 2006"
