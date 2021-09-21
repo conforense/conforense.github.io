@@ -47,21 +47,22 @@
                 {{ $pages = $pages | append . }}
             {{ end }}
 
-            {{ with .Site.GetPage "/projects" }}
+            {{ with .Site.GetPage "/conferencias" }}
                 {{ $pages = $pages | append . }}
             {{ end }}
 
             {{ range sort $pages "Params.weight" }}
+            {{ if not .Params.hide }}
             {{ if ne .Name "contact.md" }}
-            {{ if eq (os.Stat .File.Dir).Name "projects" }}
-                <!-- Now for some cool projects -->
+            {{ if eq (os.Stat .File.Dir).Name "conferencias" }}
+                <!-- Now for some cool conferences -->
                 {{ if $isHome }}
                 <a class="navbar-item" href="{{ printf "#%s" ( .Title | urlize) | relLangURL }}">{{ .Title | markdownify }}</a>
                 {{ else }}
-                {{ $pageIsInProjects := eq $.Page.Section "projects"}}
-                {{ if not (and $pageIsInProjects (eq $.Page.Kind "section")) }}
+                {{ $pageIsInConferences := eq $.Page.Section "conferencias"}}
+                {{ if not (and $pageIsInConferences (eq $.Page.Kind "section")) }}
                   <a class="navbar-item" href="{{ .Permalink }}">
-                  {{ if $pageIsInProjects }}
+                  {{ if $pageIsInConferences }}
                   {{ i18n "nav_backToSection" . }}
                   {{ else }}
                   <!-- fix-224 -->
@@ -89,6 +90,7 @@
                 {{ end }}
             {{ else }}
             <a class="navbar-item" href="{{ if $isHome }}#{{ .File.TranslationBaseName }}{{ else }}{{ printf "#%s" (.File.TranslationBaseName | urlize) | relLangURL }}{{ end }}">{{ .Title | markdownify }}</a>
+            {{ end }}
             {{ end }}
             {{ end }}
             {{ end }}

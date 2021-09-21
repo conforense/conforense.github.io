@@ -1,6 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-weight: 20
 date: {{ .Date }}
+weight: 20
+showSummary: true
+featured: true
+tags: []
 draft: true
 ---
