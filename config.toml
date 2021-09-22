@@ -1,7 +1,7 @@
 baseURL                           = "https://conforense.github.io/"    # Your domain name. Must end with "/"
 theme                             = "introduction"
 DefaultContentLanguage            = "es"                               # Default language for multilingual sites
-googleAnalytics                   = "G-337655WCG8"                     # https://gohugo.io/templates/internal/#google-analytics
+#googleAnalytics                   = "G-337655WCG8"                     # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
     themeStyle                    = "dark"                  # Choose "light" or "dark" or "auto"

@@ -39,5 +39,14 @@
         <!-- Include page specific scripts -->
         {{ block "customScripts" . }}
         {{ end }}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-337655WCG8"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-337655WCG8');
+        </script>
     </body>
 </html>
