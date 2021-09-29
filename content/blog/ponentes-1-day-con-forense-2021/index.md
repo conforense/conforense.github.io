@@ -15,5 +15,8 @@ Cloud Security Engineer @ Flywire.
 ## Lorenzo Martínez Rodríguez {#Lorenzo}
 Ingeniero en Informática Colegiado. Director Técnico de Securízame.
 
+## Manuel Guerra - @CiberPoliES {#Manu}
+Analista Forense - www.GLIDER.es
+
 ## Samuel Burgos {#Samuel}
 Cloud Security Engineer @ Flywire
