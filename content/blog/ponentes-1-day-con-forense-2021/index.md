@@ -12,6 +12,10 @@ En esta primera edición de 1-Day CON Forense vamos a contar con ponentes muy to
 ## David Lladro {#David}
 Cloud Security Engineer @ Flywire.
 
+## Javier Rubio Alamillo {#Javier}
+Ingeniero e Ingeniero Técnico en Informática, colegiado CPIICM y Decano CPITICM.
+[www.peritoinformaticocolegiado.es](www.peritoinformaticocolegiado.es)
+
 ## Lorenzo Martínez Rodríguez {#Lorenzo}
 Ingeniero en Informática Colegiado. Director Técnico de Securízame.
 
