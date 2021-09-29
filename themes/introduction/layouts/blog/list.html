@@ -7,8 +7,12 @@
         <h2 class="title is-2 top-pad">{{ i18n "index_blog_latestPosts" . }}</h2>
             {{ $totalPosts := (len .Pages) }}
             {{ $numberOfPostToShow := .Site.Params.home.numberOfPostToShow | default $totalPosts }}
-            {{ range .Pages.ByWeight | first $numberOfPostToShow }}
+            {{ range $idx, $page := .Pages.ByWeight | first $numberOfPostToShow }}
+            {{ if eq $idx 0 }}
             <div class="summary">{{ if .Params.date }}{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }}{{ end }}
+            {{ else }}
+            <div class="summary mt-6">{{ if .Params.date }}{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }}{{ end }}
+            {{ end }}
                 <h3 class="title is-3 strong-post-title">
                     <a href="{{ .Permalink }}">
                         {{ .Title | markdownify }}
@@ -23,7 +27,7 @@
             </div>
             {{ end }}
         {{ end }}
-        <h2 class="title is-2 top-pad">{{ i18n "index_blog_allPosts" . }}</h2>
+        <h2 class="title is-2 top-pad mt-6">{{ i18n "index_blog_allPosts" . }}</h2>
         {{if .Site.Params.home.allPostsArchiveFormat}}
             {{ partialCached "blog/archive.html" .}}
         {{else}}
