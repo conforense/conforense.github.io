@@ -18,6 +18,7 @@ Ingeniero e Ingeniero Técnico en Informática, colegiado CPIICM y Decano CPITIC
 
 ## Lorenzo Martínez Rodríguez {#Lorenzo}
 Ingeniero en Informática Colegiado. Director Técnico de Securízame.
+[www.securizame.com](https://www.securizame.com)
 
 ## Manuel Guerra - @CiberPoliES {#Manu}
 Analista Forense - [www.GLIDER.es](https://www.GLIDER.es)
