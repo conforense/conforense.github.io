@@ -7,4 +7,13 @@ featured: true
 tags: ["ponentes", "CON Forense"]
 ---
 
-TBD
+En esta primera edición de 1-Day CON Forense vamos a contar con ponentes muy top.
+
+## David Lladro {#David}
+Cloud Security Engineer @ Flywire.
+
+## Lorenzo Martínez Rodríguez {#Lorenzo}
+Ingeniero en Informática Colegiado. Director Técnico de Securízame.
+
+## Samuel Burgos {#Samuel}
+Cloud Security Engineer @ Flywire
