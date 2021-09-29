@@ -16,7 +16,10 @@ Cloud Security Engineer @ Flywire.
 Ingeniero en Informática Colegiado. Director Técnico de Securízame.
 
 ## Manuel Guerra - @CiberPoliES {#Manu}
-Analista Forense - www.GLIDER.es
+Analista Forense - [www.GLIDER.es](https://www.GLIDER.es)
+
+## Marcos Fuentes
+Entusiasta DFIR - [unminioncurioso.blogspot.com](https://unminioncurioso.blogspot.com)
 
 ## Samuel Burgos {#Samuel}
 Cloud Security Engineer @ Flywire
