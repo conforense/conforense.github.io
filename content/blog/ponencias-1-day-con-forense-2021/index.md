@@ -24,3 +24,9 @@ Por [Javier]({{< ref "/blog/ponentes-1-day-con-forense-2021#Javier" >}})
 ## Wintriage: La herramienta de triage para el DFIRer en Windows
 
 Por [Lorenzo]({{< ref "/blog/ponentes-1-day-con-forense-2021#Lorenzo" >}})
+
+## TP, venganza!
+
+PoC de adquisición mas o menos compleja de un smartphone actual.
+
+Por [Buenaventura]({{< ref "/blog/ponentes-1-day-con-forense-2021#Buenaventura" >}})

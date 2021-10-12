@@ -9,6 +9,8 @@ tags: ["ponentes", "CON Forense"]
 
 En esta primera edición de 1-Day CON Forense vamos a contar con ponentes muy top.
 
+## Buenaventura Salcedo {#Buenaventura}
+
 ## David Lladro {#David}
 
 Cloud Security Engineer @ Flywire.
