@@ -11,6 +11,8 @@ En esta primera edición de 1-Day CON Forense vamos a contar con ponentes muy to
 
 ## Buenaventura Salcedo {#Buenaventura}
 
+Graduado en Ingeniería Informática.
+
 ## David Lladro {#David}
 
 Cloud Security Engineer @ Flywire.
