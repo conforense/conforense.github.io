@@ -16,7 +16,7 @@ Esta conferencia pretende ser sencilla, de unas pocas horas y en el mismo día. 
 
 <h2 class="has-text-centered"><a href='{{< ref "/blog/registro-1-day-con-forense-2021" >}}'>Registro Gratuito</a></h2>
 
-A continuación puedes ver los ponentes y las charlas que se van a impartir, así como el horario de las mimas.
+A continuación puedes ver los ponentes y las charlas que se van a impartir, así como el horario de las mismas.
 
 <h3 class="has-text-centered">
     <a href='{{< ref "/blog/ponentes-1-day-con-forense-2021" >}}'>Ponentes</a>
@@ -24,17 +24,16 @@ A continuación puedes ver los ponentes y las charlas que se van a impartir, as�
     <a href='{{< ref "/blog/ponencias-1-day-con-forense-2021" >}}'>Ponencias</a>
 </h3>
 
-
 ## Horario
 
-| Hora | Ponencia |
-|------|----------|
-| 10:00 | Bienvenida |
-| 10:10 | P1 |
-| 11:00 | P2 |
-| 12:00 | P3 |
-| 13:00 | Descanso para comer |
-| 15:00 | P4 |
-| 16:00 | P5 |
-| 17:00 | P6 |
+| Hora  | Ponencia                    |
+| ----- | --------------------------- |
+| 10:00 | Bienvenida                  |
+| 10:10 | P1                          |
+| 11:00 | P2                          |
+| 12:00 | P3                          |
+| 13:00 | Descanso para comer         |
+| 15:00 | P4                          |
+| 16:00 | P5                          |
+| 17:00 | P6                          |
 | 18:00 | Despedida y agradecimientos |
