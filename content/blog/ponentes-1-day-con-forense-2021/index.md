@@ -33,10 +33,6 @@ Ingeniero en Informática Colegiado. Director Técnico de Securízame.
 
 Analista Forense - [www.GLIDER.es](https://www.GLIDER.es)
 
-## Marcos Fuentes - @\_n4rr34n6\_ {#Marcos}
-
-Entusiasta DFIR - [unminioncurioso.blogspot.com](https://unminioncurioso.blogspot.com)
-
 ## Samuel Burgos {#Samuel}
 
 Cloud Security Engineer @ Flywire
