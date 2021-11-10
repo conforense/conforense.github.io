@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ponencias on</title><link>https://conforense.github.io/tags/ponencias/</link><description>Recent content in ponencias on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 14 Sep 2021 22:39:09 +0200</lastBuildDate><atom:link href="https://conforense.github.io/tags/ponencias/index.xml" rel="self" type="application/rss+xml"/><item><title>Ponencias 1-Day CON Forense 2021</title><link>https://conforense.github.io/blog/ponencias-1-day-con-forense-2021/</link><pubDate>Tue, 14 Sep 2021 22:39:09 +0200</pubDate><guid>https://conforense.github.io/blog/ponencias-1-day-con-forense-2021/</guid><description>Automating forensics in AWS Por David y Samuel
-How Do They Do It? Un repaso por algunos artifacts del sistema y algunas herramientas para saber qué información se puede extraer de ellos.
-Por Marcos
 La importancia de la cadena de custodia en la adquisición de evidencias y su posterior admisión como pruebas en un juzgado Por Javier
-Wintriage: La herramienta de triage para el DFIRer en Windows Por Lorenzo</description></item></channel></rss>
+Wintriage: La herramienta de triage para el DFIRer en Windows Por Lorenzo
+TP, venganza! PoC de adquisición mas o menos compleja de un smartphone actual.
+Por Buenaventura</description></item></channel></rss>
