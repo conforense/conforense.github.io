@@ -19,6 +19,10 @@ Por [Javier]({{< ref "/blog/ponentes-1-day-con-forense-2021#Javier" >}})
 
 Por [Lorenzo]({{< ref "/blog/ponentes-1-day-con-forense-2021#Lorenzo" >}})
 
+## Tor v3 Forensics
+
+Por [Manu]({{< ref "/blog/ponentes-1-day-con-forense-2021#Manu" >}})
+
 ## TP, venganza!
 
 PoC de adquisición mas o menos compleja de un smartphone actual.

@@ -26,14 +26,14 @@ A continuación puedes ver los ponentes y las charlas que se van a impartir, as�
 
 ## Horario
 
-| Hora  | Ponencia                    |
-| ----- | --------------------------- |
-| 10:00 | Bienvenida                  |
-| 10:10 | P1                          |
-| 11:00 | P2                          |
-| 12:00 | P3                          |
-| 13:00 | Descanso para comer         |
-| 15:00 | P4                          |
-| 16:00 | P5                          |
-| 17:00 | P6                          |
-| 18:00 | Despedida y agradecimientos |
+| Hora  | Ponencia                                                                                                                   |
+| ----- | -------------------------------------------------------------------------------------------------------------------------- |
+| 10:00 | Bienvenida                                                                                                                 |
+| 10:10 | TP, venganza!                                                                                                              |
+| 11:00 | Automating forensics in AWS                                                                                                |
+| 12:00 | La importancia de la cadena de custodia en la adquisición de evidencias y su posterior admisión como pruebas en un juzgado |
+| 13:00 | Descanso para comer                                                                                                        |
+| 15:00 | Wintriage: La herramienta de triage para el DFIRer en Windows                                                              |
+| 16:00 | P5                                                                                                                         |
+| 17:00 | Tor v3 Forensics                                                                                                           |
+| 18:00 | Despedida y agradecimientos                                                                                                |
