@@ -11,6 +11,10 @@ tags: ["ponencias", "CON Forense"]
 
 Por [David]({{< ref "/blog/ponentes-1-day-con-forense-2021#David" >}}) y [Samuel]({{< ref "/blog/ponentes-1-day-con-forense-2021#Samuel" >}})
 
+## El disco de mi portátil
+
+Por [Israel]({{< ref "/blog/ponentes-1-day-con-forense-2021#Israel" >}})
+
 ## La importancia de la cadena de custodia en la adquisición de evidencias y su posterior admisión como pruebas en un juzgado
 
 Por [Javier]({{< ref "/blog/ponentes-1-day-con-forense-2021#Javier" >}})

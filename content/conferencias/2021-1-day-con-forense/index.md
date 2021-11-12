@@ -34,6 +34,6 @@ A continuación puedes ver los ponentes y las charlas que se van a impartir, as�
 | 12:00 | La importancia de la cadena de custodia en la adquisición de evidencias y su posterior admisión como pruebas en un juzgado |
 | 13:00 | Descanso para comer                                                                                                        |
 | 15:00 | Wintriage: La herramienta de triage para el DFIRer en Windows                                                              |
-| 16:00 | P5                                                                                                                         |
+| 16:00 | El disco de mi portátil                                                                                                    |
 | 17:00 | Tor v3 Forensics                                                                                                           |
 | 18:00 | Despedida y agradecimientos                                                                                                |
