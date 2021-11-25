@@ -7,11 +7,11 @@ featured: true
 tags: ["ponencias", "CON Forense"]
 ---
 
-## Automating forensics in AWS
+## SysFu: Cómo montar Sysmon a nivel enterprise y amargar la vida a los malos
 
-Veremos como aprovechar los servicios que nos provee AWS para automatizar el Triage, IR y forensics
+En la charla se hará una descripción de Sysmon y sus capacidades, centrándonos sobre todo en los temas logísticos: cómo desplegarlo, debuggearlo, tunearlo, optimizarlo y mantenerlo.
 
-Por [David]({{< ref "/blog/ponentes-1-day-con-forense-2021#David" >}}) y [Samuel]({{< ref "/blog/ponentes-1-day-con-forense-2021#Samuel" >}})
+Por [Antonio Sanz]({{< ref "/blog/ponentes-1-day-con-forense-2021#Antonio" >}})
 
 ## El disco de mi portátil
 

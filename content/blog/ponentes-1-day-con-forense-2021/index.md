@@ -9,13 +9,13 @@ tags: ["ponentes", "CON Forense"]
 
 En esta primera edición de 1-Day CON Forense vamos a contar con ponentes muy top.
 
+## Antonio Sanz {#Antonio}
+
+Ingeniero Superior de Telecomunicaciones por la Universidad de Zaragoza, con más de 20 años de experiencia en el sector de la seguridad de la información. Actualmente es jefe de proyecto senior de S2 Grupo, desarrollando tares de respuesta ante incidentes, análisis forense, inteligencia de amenazas y diseño de arquitecturas seguras en el S2 Grupo CERT.
+
 ## Buenaventura Salcedo {#Buenaventura}
 
 Graduado en Ingeniería Informática.
-
-## David Lladro {#David}
-
-Cloud Security Engineer @ Flywire.
 
 ## Israel {#Israel}
 
@@ -32,7 +32,3 @@ Ingeniero en Informática Colegiado. Director Técnico de Securízame.
 ## Manuel Guerra - @CiberPoliES {#Manu}
 
 Analista Forense - [www.GLIDER.es](https://www.GLIDER.es)
-
-## Samuel Burgos {#Samuel}
-
-Cloud Security Engineer @ Flywire

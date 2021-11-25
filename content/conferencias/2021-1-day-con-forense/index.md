@@ -30,7 +30,7 @@ A continuación puedes ver los ponentes y las charlas que se van a impartir, as�
 | ----- | -------------------------------------------------------------------------------------------------------------------------- |
 | 10:00 | Bienvenida                                                                                                                 |
 | 10:10 | TP, venganza!                                                                                                              |
-| 11:00 | Automating forensics in AWS                                                                                                |
+| 11:00 | SysFu: Cómo montar Sysmon a nivel enterprise y amargar la vida a los malos                                                 |
 | 12:00 | La importancia de la cadena de custodia en la adquisición de evidencias y su posterior admisión como pruebas en un juzgado |
 | 13:00 | Descanso para comer                                                                                                        |
 | 15:00 | Wintriage: La herramienta de triage para el DFIRer en Windows                                                              |
