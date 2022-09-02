@@ -8,17 +8,18 @@
         <div class="section">
             <div class="columns is-multiline">
                 {{ $totalConferences := (len .Pages) }}
-                {{ $numberOfConferencesToShow := .Site.Params.home.numberOfConferencesToShow | default $totalConferences }}
-                {{ range $index, $element := .Pages.ByWeight | first $numberOfConferencesToShow }}
+                {{ $numberOfConferencesToShow := .Site.Params.home.numberOfConferencesToShow | default $totalConferences
+                }}
+                {{ range $index, $element := .Pages.ByDate | first $numberOfConferencesToShow }}
                 {{ $width := "302x" }}
                 {{ $columWidth := "is-one-third" }}
                 {{ if .Site.Params.conferences.useTwoColumns }}
-                  {{ $columWidth = "is-half" }}
-                  {{ $width = "490x" }}
+                {{ $columWidth = "is-half" }}
+                {{ $width = "490x" }}
                 {{ end}}
                 {{ if .Site.Params.conferences.useOneColumn }}
-                    {{ $columWidth = "is-full" }}
-                    {{ $width = "490x" }}
+                {{ $columWidth = "is-full" }}
+                {{ $width = "490x" }}
                 {{ end}}
                 <div class="column {{ $columWidth }}">
                     <div class="card" data-target="#conferences-{{ $index }}">
@@ -29,7 +30,7 @@
                                     {{ with .Resources.ByType "image" }}
                                     {{ range first 1 (sort . "Params.weight") }}
                                     {{ $image := .Resize $width }}
-                                    <img class="card-thumbnail" src="{{ $image.Permalink }}" alt ="{{ $image.Name }}">
+                                    <img class="card-thumbnail" src="{{ $image.Permalink }}" alt="{{ $image.Name }}">
                                     {{ end }}
                                     {{ end }}
                                 </a>
@@ -38,8 +39,8 @@
                         {{ end }}
                         <div class="card-content has-text-centered top-pad">
                             <h1><a {{ if .Params.external_link }} href="{{ .Params.external_link }}" {{ end }}>
-                                {{ .Title | markdownify }}
-                            </a></h1>
+                                    {{ .Title | markdownify }}
+                                </a></h1>
                             {{ if .Params.conferense_timeframe }}
                             <p class="fa-xs">{{ .Params.conferense_timeframe }}</p>
                             {{ end }}
@@ -49,11 +50,11 @@
                 {{ end }}
             </div>
         </div>
-        
+
         <div class="container has-text-centered top-pad">
             <a href="{{ .Permalink }}">{{ i18n "index_conferences_allConferences" . }}</a>
         </div>
-        
+
     </div>
     <!-- End Conferences container -->
     <!-- Conferences modals -->
@@ -69,24 +70,24 @@
             {{ end }}
             {{ if .Params.conferences_timeframe }}
             <p class="fa-xs">{{ .Params.conferences_timeframe }}</p>
-            {{ end }}         
+            {{ end }}
             <section class="modal-card-body markdown">
                 {{ with .Resources.ByType "image" }}
                 {{ $moreThenOneImage := gt (len .) 1 }}
                 {{ if $moreThenOneImage }}
                 <div class="owl-carousel owl-theme">
-                {{ end }}
-                    {{ range sort . "Params.weight" }}
-                        {{ $image := .Resize "640x" }}
-                        {{ if $moreThenOneImage }}
-                        <div class="item owl-height">
-                        {{ end }}
-                            <img src="{{ $image.Permalink }}" class="img-responsive" alt="{{ $image.Name }}">
-                        {{ if $moreThenOneImage }}
-                        </div>
-                        {{ end }}
                     {{ end }}
-                {{ if $moreThenOneImage }}
+                    {{ range sort . "Params.weight" }}
+                    {{ $image := .Resize "640x" }}
+                    {{ if $moreThenOneImage }}
+                    <div class="item owl-height">
+                        {{ end }}
+                        <img src="{{ $image.Permalink }}" class="img-responsive" alt="{{ $image.Name }}">
+                        {{ if $moreThenOneImage }}
+                    </div>
+                    {{ end }}
+                    {{ end }}
+                    {{ if $moreThenOneImage }}
                 </div>
                 {{ end }}
                 {{ end }}
@@ -100,5 +101,7 @@
     {{ partial "top-icon.html" . }}
 </div>
 <!-- End Conferences section -->
-<div class="container"><hr></div>
+<div class="container">
+    <hr>
+</div>
 {{ end }}
