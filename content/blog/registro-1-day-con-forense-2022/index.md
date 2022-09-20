@@ -1,11 +1,13 @@
 ---
 title: "Registro 1-Day CON Forense 2022"
-date: 2022-09-01T12:00:00+02:00
+date: 2022-09-20T12:00:00+02:00
 showSummary: false
 featured: true
 tags: ["registro", "CON Forense"]
-draft: true
+draft: false
 ---
+
+Siguiendo el patrón de la anterior edicón, el registro para CONForense es libre y gratuito. Recordar que el evento será el 10 de diciembre de 2022.
 
 El registro para asistir como público al evento 1-Day CON Forense 2022 debe de realizarse a través del siguiente [bot de Telegram](https://t.me/conforensebot).
 
