@@ -10,7 +10,7 @@ draft: false
 En esta segunda edición de CONForense disfrutaremos las ponencias de los siguiente ponentes.
 
 
-## Peritotec {#Peritotec}
+## Pablo Espada {#PabloEspada}
 
 Perito Informático ejerciendo desde el año 2013. Despacho propio en Cáceres (Extremadura). Ingeniero Informático Colegiado por el CPIIEX.
 
@@ -60,4 +60,5 @@ Creador de aplicaciones como Twiana, Dante’s Gates, Guasap Forensic, etc.
 
 Empresa: Lazarus Technology
 
-* [@jorgewebsec](https://twitter.com/jorgewebsec)
+* Twitter: [@jorgewebsec](https://twitter.com/jorgewebsec)
+* LinkedIn: [in/jorge-coronado-quantika14](https://www.linkedin.com/in/jorge-coronado-quantika14)

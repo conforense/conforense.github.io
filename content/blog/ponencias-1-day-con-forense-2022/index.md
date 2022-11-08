@@ -18,7 +18,7 @@ Terminaríamos ya brevemente, con el seguimiento al caso tras la ratificación.
 
 La charla llevará 0% contenido técnico.
 
-Por [Peritotec]({{< ref "/blog/ponentes-1-day-con-forense-2022#Peritotec" >}})
+Por [Pablo Espada]({{< ref "/blog/ponentes-1-day-con-forense-2022#PabloEspada" >}})
 
 ## Mi proveedor ha sido hackeado ¿Seguro?
 
