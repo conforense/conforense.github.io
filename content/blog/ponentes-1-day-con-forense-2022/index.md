@@ -43,7 +43,7 @@ Ingeniero Informático y Master en Ciberseguridad, con dedicación profesional a
 Empresa: S2 Grupo
 
 * Twitter: [@nomed__1](https://twitter.com/nomed__1)
-* LinkedIn: [in/nomed__1](https://www.linkedin.com/in/nomed__1)
+* LinkedIn: [in/nomed1](https://www.linkedin.com/in/nomed1)
 * GitHub: [nomed1](https://github.com/nomed1)
 
 ## Jorge Coronado {#JorgeCoronado}
