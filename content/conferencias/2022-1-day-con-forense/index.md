@@ -7,7 +7,7 @@ external_link: "/conferencias/2022-1-day-con-forense/" # Optional external link 
 #    - src: plant.jpg
 #      params:
 #          weight: -100 # Optional weighting for a specific image in this project folder
-draft: false
+draft: true
 ---
 
 `1-Day CON Forense` 2022 es la segunda edición de la conferencia realizada por el grupo de Telegram **Informática Forense**. Esta conferencia está pensada para ser emitida en directo a través de Telegram y posiblemente publicada en [YouTube](https://www.youtube.com/) más adelante. Las inscripciones son libres y gratuitas y puedes realizar tu inscripción desde [aquí]({{< ref "/blog/registro-1-day-con-forense-2022" >}}).
@@ -27,15 +27,15 @@ A continuación puedes ver los ponentes y las charlas que se van a impartir, as�
 
 ## Horario
 
-| Hora  | Ponencia                                                                                                                   |
-| ----- | -------------------------------------------------------------------------------------------------------------------------- |
-| 10:00 | Bienvenida                                                                                                                 |
-| 10:15 | Ponencia 1 |
-| 10:45 | Ponencia 2 |
-| 11:45 | Ponencia 3 |
-| 12:45 | Ponencia 4 |
-| 13:15 | Descanso para comer |
-| 15:00 | Ponencia 5 |
-| 16:00 | Ponencia 6 |
-| 17:00 | Ponencia 7 |
-| 18:00 | Despedida  |
+| Hora  | Ponencia                                                                   |
+| ----- | -------------------------------------------------------------------------- |
+| 10:00 | Bienvenida                                                                 |
+| 10:15 | When Rust meets forensics                                                  |
+| 10:45 | Mi proveedor ha sido hackeado ¿Seguro?                                     |
+| 11:45 | Repadesastre en APK Downgrade                                              |
+| 12:45 | Cómo preparar la ratificación judicial de una pericial informática         |
+| 13:15 | Descanso para comer                                                        |
+| 15:00 | TBD                                                                        |
+| 16:00 | TBD                                                                        |
+| 17:00 | Para hacer el amor hay que venir al SU: Forensic & OSINT VS ransomware     |
+| 18:00 | Despedida                                                                  |

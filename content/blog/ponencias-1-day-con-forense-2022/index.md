@@ -22,16 +22,7 @@ Por [Pablo Espada]({{< ref "/blog/ponentes-1-day-con-forense-2022#PabloEspada" >
 
 ## Mi proveedor ha sido hackeado ¿Seguro?
 
-Se trata de la presentación de un caso real. Un cliente nos llama porque un proveedor les reclama unos pagos que ellos ya han realizado. Quieren demostrar que un proveedor ha sido victima de un ataque informático, y que certifiquemos que las transferencias realizadas a dicho proveedor son correctas. Que son ellos los que tienen el problema. Nos aportan una serie de correos electrónicos, facturas y comprobantes bancarios.
-
-Tras analizar las cabeceras de dichos correos se detecta una suplantación de cuentas de correo (mail spoofing), sufrida no por el proveedor sino por nuestro cliente. El caso se convierte en una variante de la Estafa del CEO. Mediante la suplantación de la cuenta de correo del proveedor se ha conseguido que se realicen una serie de transferencias bancarias (decenas de miles de euros) a cuentas controladas por el atacante. Tras demostrar lo sucedido y descargar de responsablidad al proveedor, comienza una investigación para analizar cómo se ha producido la suplantación.
-
-Debido a las deficiencias técnológicas de nuestro cliente, sólo disponemos de logs de tráfico web posteriores a los hechos investigados (aparentemente sin interés para nuestra investigación). No disponemos de logs del servidor de correo ni de ningún tipo de log de las fechas relevantes. Aún con estas limitaciones y trás un análisis profundo de los logs disponibles. Se descubre que las comunicaciones por correo electrónico del cliente siguen siendo interceptadas por el atacante, aúnque las contraseñas de correo fueron cambiadas. Y que no sólo se intercepta la cuenta de correo usada para los pagos, sino todas las cuentas de correo del dominio de la empresa.
-
-Finalmente la investigación demuestra que el vector de ataque es una vulnerabilidad en el software usado para el panel de control del hosting (CPanel), que permite el acceso total a todos los buzones de correo del dominio y que es necesario actualizar dicho software o cambiar a un software distinto.
-
-El interés del caso radica en mostrar los giros de guión que se producen en una investigación, las limitaciones para investigar que se encuentra cualquier investigador forense en el día a día, y como unas evidencias inicialmente
-catalogadas como irrelevantes sirven para resoverlo.
+Se trata de la presentación de un caso real. Un cliente nos llama porque un proveedor les reclama unos pagos que ellos ya han realizado. El interés del caso radica en mostrar los giros de guión que se producen en una investigación, las limitaciones para investigar que se encuentra cualquier investigador forense en el día a día, y como unas evidencias inicialmente catalogadas como irrelevantes sirven para resoverlo.
 
 Por [Juan Torres Ibañez]({{< ref "/blog/ponentes-1-day-con-forense-2022#JuanTorresIbañez" >}})
 
