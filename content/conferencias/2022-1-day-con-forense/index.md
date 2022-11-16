@@ -1,13 +1,13 @@
 ---
 title: "1-Day CON Forense 2022" # Title of your project
-date: 2022-09-1T22:27:11+02:00
+date: 2022-11-10T22:27:11+02:00
 weight: 10 # Order in which to show this project on the home page
 external_link: "/conferencias/2022-1-day-con-forense/" # Optional external link instead of modal
 #resources:
 #    - src: plant.jpg
 #      params:
 #          weight: -100 # Optional weighting for a specific image in this project folder
-draft: true
+draft: false
 ---
 
 `1-Day CON Forense` 2022 es la segunda edición de la conferencia realizada por el grupo de Telegram **Informática Forense**. Esta conferencia está pensada para ser emitida en directo a través de Telegram y posiblemente publicada en [YouTube](https://www.youtube.com/) más adelante. Las inscripciones son libres y gratuitas y puedes realizar tu inscripción desde [aquí]({{< ref "/blog/registro-1-day-con-forense-2022" >}}).
