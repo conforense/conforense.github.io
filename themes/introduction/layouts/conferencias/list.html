@@ -6,7 +6,7 @@
     <div class="section">
         <div class="columns is-multiline">
             {{ $numberOfPages := len .Pages}}
-            {{ range .Pages.ByDate }}
+            {{ range .Pages.ByDate.Reverse }}
             {{ $width := "302x" }}
             {{ $columWidth := "is-one-third" }}
             {{ if .Site.Params.conferences.useTwoColumns }}

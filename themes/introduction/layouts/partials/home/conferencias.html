@@ -10,7 +10,7 @@
                 {{ $totalConferences := (len .Pages) }}
                 {{ $numberOfConferencesToShow := .Site.Params.home.numberOfConferencesToShow | default $totalConferences
                 }}
-                {{ range $index, $element := .Pages.ByDate | first $numberOfConferencesToShow }}
+                {{ range $index, $element := .Pages.ByDate.Reverse | first $numberOfConferencesToShow }}
                 {{ $width := "302x" }}
                 {{ $columWidth := "is-one-third" }}
                 {{ if .Site.Params.conferences.useTwoColumns }}

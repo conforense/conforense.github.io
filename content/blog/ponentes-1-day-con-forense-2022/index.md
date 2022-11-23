@@ -62,3 +62,7 @@ Empresa: Lazarus Technology
 
 * Twitter: [@jorgewebsec](https://twitter.com/jorgewebsec)
 * LinkedIn: [in/jorge-coronado-quantika14](https://www.linkedin.com/in/jorge-coronado-quantika14)
+
+## Jorge Bermudez {#JorgeBermudez}
+
+* Twitter: [@TenienteKaffee](https://twitter.com/TenienteKaffee)

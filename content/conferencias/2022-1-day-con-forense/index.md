@@ -36,6 +36,6 @@ A continuación puedes ver los ponentes y las charlas que se van a impartir, as�
 | 12:45 | Cómo preparar la ratificación judicial de una pericial informática         |
 | 13:15 | Descanso para comer                                                        |
 | 15:00 | TBD                                                                        |
-| 16:00 | TBD                                                                        |
+| 16:00 | Crónica de una pesadilla forense                                           |
 | 17:00 | Para hacer el amor hay que venir al SU: Forensic & OSINT VS ransomware     |
 | 18:00 | Despedida                                                                  |

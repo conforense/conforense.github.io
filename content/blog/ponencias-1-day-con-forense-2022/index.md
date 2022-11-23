@@ -49,3 +49,9 @@ Muchos equipos en CSOC y HelpDesk deben justificar o investigar la procedencia d
 4. Realizar una investigación OSINT de un caso real donde encontramos a los autores
 
 Por [Jorge Coronado]({{< ref "/blog/ponentes-1-day-con-forense-2022#JorgeCoronado" >}})
+
+## Crónica de una pesadilla forense
+
+Será el relato, más o menos, cronológico, de la experiencia que tuve como fiscal del caso Kote Cabezudo, cuya docuserie se estrena mañana en Disney+. Era un tipo al que, en un primer registro, le incautan 16 Tb. de evidencia digital en 3 racks US Robotics DROBO, y a partir de ahí, la que se lía para volcarlos, analizarlos y presentarlos a juicio.
+
+Por [Jorge Bermudez]({{< ref "/blog/ponentes-1-day-con-forense-2022#JorgeBermudez" >}})
