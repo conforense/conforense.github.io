@@ -66,3 +66,7 @@ Empresa: Lazarus Technology
 ## Jorge Bermudez {#JorgeBermudez}
 
 * Twitter: [@TenienteKaffee](https://twitter.com/TenienteKaffee)
+
+## Alonso Hurtado Bueno {#AlonsoHurtadoBueno}
+
+* Web: [ecija.com](ecija.com)

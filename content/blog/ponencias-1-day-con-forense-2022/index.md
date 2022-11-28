@@ -55,3 +55,9 @@ Por [Jorge Coronado]({{< ref "/blog/ponentes-1-day-con-forense-2022#JorgeCoronad
 Será el relato, más o menos, cronológico, de la experiencia que tuve como fiscal del caso Kote Cabezudo, cuya docuserie se estrena mañana en Disney+. Era un tipo al que, en un primer registro, le incautan 16 Tb. de evidencia digital en 3 racks US Robotics DROBO, y a partir de ahí, la que se lía para volcarlos, analizarlos y presentarlos a juicio.
 
 Por [Jorge Bermudez]({{< ref "/blog/ponentes-1-day-con-forense-2022#JorgeBermudez" >}})
+
+## Aspectos legales de un ataque de seguridad
+
+Dando una visión lo más práctica posible de cómo debemos actuar desde el punto de vista jurídico en caso de ser víctimas de un ataque.
+
+Por [Alonso Hurtado Bueno]({{< ref "/blog/ponentes-1-day-con-forense-2022#AlonsoHurtadoBueno" >}})
