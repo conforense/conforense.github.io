@@ -30,12 +30,12 @@ A continuación puedes ver los ponentes y las charlas que se van a impartir, as�
 | Hora  | Ponencia                                                                   |
 | ----- | -------------------------------------------------------------------------- |
 | 10:00 | Bienvenida                                                                 |
-| 10:15 | When Rust meets forensics                                                  |
-| 10:45 | Mi proveedor ha sido hackeado ¿Seguro?                                     |
-| 11:45 | Repadesastre en APK Downgrade                                              |
+| 10:15 | Aspectos legales de un ataque de seguridad                                 |
+| 10:45 | When Rust meets forensics                                                  |
+| 11:45 | Mi proveedor ha sido hackeado ¿Seguro?                                     |
 | 12:45 | Cómo preparar la ratificación judicial de una pericial informática         |
 | 13:15 | Descanso para comer                                                        |
-| 15:00 | TBD                                                                        |
+| 15:00 | Repadesastre en APK Downgrade                                              |
 | 16:00 | Crónica de una pesadilla forense                                           |
 | 17:00 | Para hacer el amor hay que venir al SU: Forensic & OSINT VS ransomware     |
 | 18:00 | Despedida                                                                  |
