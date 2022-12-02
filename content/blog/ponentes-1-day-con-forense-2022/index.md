@@ -69,4 +69,6 @@ Empresa: Lazarus Technology
 
 ## Alonso Hurtado Bueno {#AlonsoHurtadoBueno}
 
-* Web: [ecija.com](ecija.com)
+Abgado especialista en IT, Ciberseguridad y Compliance
+
+* Web: [ecija.com](https://ecija.com/abogados/alonso-hurtado/)
